@@ -2,6 +2,8 @@
 [![Sentio](https://img.shields.io/github/v/release/astrandb/sentio)](https://github.com/astrandb/sentio/releases/latest) [![hacs_badge](https://img.shields.io/badge/HACS-Default-blue.svg)](https://github.com/custom-components/hacs)  [![Downloads for latest release](https://img.shields.io/github/downloads-pre/astrandb/sentio/latest/total.svg)](https://github.com/astrandb/sentio/releases/latest)
 
 Custom component for Sentiotec sauna controller for integration in  Home Assistant
+Changed ttyport: /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AB0L1AC3-if00-port0
+Changed Const for B3
 
 ## Preparation
 In order to connect the Sentio Pro sauna controller you need a serial port with RS-485 interface on the server running Home Assistant. On Linux based machines the serial port is typically called /dev/ttyUSB0.
